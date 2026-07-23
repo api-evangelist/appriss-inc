@@ -1,0 +1,33 @@
+generated: '2026-07-17'
+method: searched
+probe: true
+source: https://trustportal.apprissretail.com/
+url: https://trustportal.apprissretail.com/
+platform: SafeBase
+certifications:
+- ISO/IEC 27001
+- GDPR
+- CCPA
+- PIPEDA
+controls:
+- encryption
+- data backups
+- access monitoring
+- SIEM
+- endpoint detection and response
+- data loss prevention
+- business continuity / disaster recovery
+- Azure cloud infrastructure
+evidence:
+- source: https://trustportal.apprissretail.com/
+  keywords:
+  - iso/iec 27001
+  - gdpr
+  - ccpa
+  - pipeda
+  - trust portal
+note: >-
+  Appriss Retail SafeBase trust portal. Named compliance certification is
+  ISO/IEC 27001 plus privacy frameworks GDPR, CCPA, PIPEDA. Detailed security
+  documentation is gated behind an access request. No bug bounty or public
+  vulnerability-disclosure program is listed.

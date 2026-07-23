@@ -1,0 +1,25 @@
+generated: '2026-07-17'
+method: probed
+source: live probes of https://apprissretail.com/.well-known/*
+host: apprissretail.com
+probes:
+- path: /.well-known/security.txt
+  status: 404
+  file: null
+- path: /.well-known/openid-configuration
+  status: 404
+  file: null
+- path: /.well-known/oauth-authorization-server
+  status: 404
+  file: null
+- path: /.well-known/api-catalog
+  status: 404
+  file: null
+- path: /.well-known/ai-plugin.json
+  status: 404
+  file: null
+note: >-
+  No .well-known documents are published on apprissretail.com. Empty is a valid,
+  expected result for this provider. The former corporate host apprisscorp.com
+  and the VINE services host (docs.vineserv.appriss.com) are no longer resolvable
+  following the 2021 break-up of Appriss Inc.

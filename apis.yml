@@ -1,8 +1,31 @@
 aid: appriss-inc
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/appriss-inc.png
 name: Appriss Inc.
-description: 'Appriss Inc. is a company surfaced as a portfolio company of bain-capital-ventures and added
-  to the API Evangelist network as a stub for enrichment. Sector: fintech. This profile is a lead awaiting
-  the enrichment pipeline.'
+description: >-
+  Appriss Inc. was a Louisville, Kentucky data and analytics holding company
+  whose business units were broken up in 2021: Appriss Insights was sold to
+  Equifax in a $1.825 billion deal, and Appriss Health was rebranded as the
+  independent company Bamboo Health. The surviving Appriss Retail business
+  (apprissretail.com) is an AI-powered retail loss-prevention platform that
+  helps retailers combat total retail loss across in-store and online channels
+  through returns-fraud prevention, shrink and exception analytics, and case and
+  audit management. Its products include Appriss Engage (returns and claims
+  management), Appriss Secure (shrink and exception analytics), Appriss Incident
+  (case and audit management), and the Sidekick AI collaborator. Appriss Retail
+  publishes no public developer API program — its APIS Online portal is an
+  authenticated Asset Protection Information System (customer login), not a
+  developer API surface.
 url: https://raw.githubusercontent.com/api-evangelist/appriss-inc/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,10 +35,15 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
-- Fintech
+- Retail
+- Loss Prevention
+- Returns Management
+- Fraud Prevention
+- Analytics
+- Retail Technology
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,5 +51,26 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/appriss-inc-domain-security.yml
+- type: TrustCenter
+  url: security/appriss-inc-trust-center.yml
+- type: Compliance
+  url: https://trustportal.apprissretail.com/
 - type: Website
-  url: https://apprisscorp.com/
+  url: https://apprissretail.com/
+- type: Blog
+  url: https://apprissretail.com/resources/
+- type: Support
+  url: https://apprissretail.com/talk-with-us/
+- type: GitHubOrganization
+  url: https://github.com/appriss
+- type: TermsOfService
+  url: https://apprissretail.com/terms-of-use/
+- type: PrivacyPolicy
+  url: https://apprissretail.com/privacy-policy/
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
