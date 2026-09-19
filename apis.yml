@@ -23,20 +23,15 @@ accessModel:
   method: derived
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/appriss-inc.png
 name: Appriss Inc.
-description: >-
-  Appriss Inc. was a Louisville, Kentucky data and analytics holding company
-  whose business units were broken up in 2021: Appriss Insights was sold to
-  Equifax in a $1.825 billion deal, and Appriss Health was rebranded as the
-  independent company Bamboo Health. The surviving Appriss Retail business
-  (apprissretail.com) is an AI-powered retail loss-prevention platform that
-  helps retailers combat total retail loss across in-store and online channels
-  through returns-fraud prevention, shrink and exception analytics, and case and
-  audit management. Its products include Appriss Engage (returns and claims
-  management), Appriss Secure (shrink and exception analytics), Appriss Incident
-  (case and audit management), and the Sidekick AI collaborator. Appriss Retail
-  publishes no public developer API program — its APIS Online portal is an
-  authenticated Asset Protection Information System (customer login), not a
-  developer API surface.
+description: 'Appriss Inc. was a Louisville, Kentucky data and analytics holding company whose business units were
+  broken up in 2021: Appriss Insights was sold to Equifax in a $1.825 billion deal, and Appriss Health was rebranded
+  as the independent company Bamboo Health. The surviving Appriss Retail business (apprissretail.com) is an AI-powered
+  retail loss-prevention platform that helps retailers combat total retail loss across in-store and online channels
+  through returns-fraud prevention, shrink and exception analytics, and case and audit management. Its products
+  include Appriss Engage (returns and claims management), Appriss Secure (shrink and exception analytics), Appriss
+  Incident (case and audit management), and the Sidekick AI collaborator. Appriss Retail publishes no public developer
+  API program — its APIS Online portal is an authenticated Asset Protection Information System (customer login),
+  not a developer API surface.'
 url: https://raw.githubusercontent.com/api-evangelist/appriss-inc/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -80,6 +75,8 @@ common:
   url: https://apprissretail.com/terms-of-use/
 - type: PrivacyPolicy
   url: https://apprissretail.com/privacy-policy/
+- type: Blog
+  url: https://apprissretail.com/the-takeback/
 x-enrichment:
   date: '2026-07-19'
   status: backfilled
