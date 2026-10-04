@@ -22,7 +22,7 @@ accessModel:
   generated: '2026-07-22'
   method: derived
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/appriss-inc.png
-name: Appriss Inc.
+name: Appriss
 description: 'Appriss Inc. was a Louisville, Kentucky data and analytics holding company whose business units were
   broken up in 2021: Appriss Insights was sold to Equifax in a $1.825 billion deal, and Appriss Health was rebranded
   as the independent company Bamboo Health. The surviving Appriss Retail business (apprissretail.com) is an AI-powered
@@ -82,3 +82,4 @@ x-enrichment:
   status: backfilled
   pass: local-v1
   note: backfilled from .gitignore signal + verified work evidence
+x-legal-name: Appriss Inc.
